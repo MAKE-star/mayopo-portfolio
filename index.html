@@ -57,7 +57,7 @@ h2{font-family:"Syne",sans-serif;font-size:clamp(36px,5vw,64px);font-weight:800;
 .sk h3{font-family:"Syne",sans-serif;font-size:16px;font-weight:700;color:var(--ink);margin-bottom:12px}
 .tags{display:flex;flex-wrap:wrap;gap:6px}
 .tag{background:var(--surface);border:1px solid var(--border);color:var(--ink2);padding:4px 10px;border-radius:100px;font-size:12px;font-weight:500}
-.tag.h{background:rgba(26,61,255,0.08);border-color:rgba(26,61,255,0.2);color:var(--accent)}
+.tag.h{background:var(--surface);border-color:var(--border);color:var(--ink2)}
 #experience{background:var(--paper)}
 .exp-list{margin-top:48px}
 .exp-item{display:grid;grid-template-columns:200px 1fr;gap:48px;padding:40px 0;border-bottom:1px solid var(--border)}
@@ -278,15 +278,22 @@ footer p{font-size:13px;color:rgba(255,255,255,0.3)}
       <div class="tags" style="margin-bottom:24px"><span class="tag">React</span><span class="tag">TypeScript</span><span class="tag">OracleDB</span><span class="tag">Java</span></div>
       <div class="proj-foot"><span class="proj-lt">Enterprise project</span><div class="arrow">&rarr;</div></div>
     </a>
-    <a class="proj" href="#experience">
+    <a class="proj" href="https://ibloomrentals.com/" target="_blank">
       <div class="proj-num">04</div>
+      <h3>iBloom &mdash; Chair Rental Platform</h3>
+      <p>Full-featured web application for a chair rental company covering bookings, logistics, admin operations, and customer engagement. Node.js + Express backend with real-time admin chat via Socket.IO and Cloudinary image management.</p>
+      <div class="tags" style="margin-bottom:24px"><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">Socket.IO</span><span class="tag">Cloudinary</span><span class="tag">Tailwind CSS</span></div>
+      <div class="proj-foot"><span class="proj-lt">ibloomrentals.com &rarr;</span><div class="arrow">&rarr;</div></div>
+    </a>
+    <a class="proj" href="https://scholistapp.com/" target="_blank">
+      <div class="proj-num">05</div>
       <h3>Scholist Scholarship Platform</h3>
       <p>University scholarship discovery platform with custom web scraper increasing database by 50%. Advanced filtering by GPA, major, and citizenship. Stripe payment integration for coach bookings and Socket.io real-time messaging.</p>
       <div class="tags" style="margin-bottom:24px"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">Stripe</span><span class="tag">Socket.io</span></div>
-      <div class="proj-foot"><span class="proj-lt">Web &amp; Mobile</span><div class="arrow">&rarr;</div></div>
+      <div class="proj-foot"><span class="proj-lt">scholistapp.com &rarr;</span><div class="arrow">&rarr;</div></div>
     </a>
     <div class="proj">
-      <div class="proj-num">05 &mdash; Open Source (Coming Soon)</div>
+      <div class="proj-num">06 &mdash; Open Source (Coming Soon)</div>
       <h3>Gmail Bulk Cleaner CLI</h3>
       <p>Built out of personal frustration when Gmail froze at 10,000+ unread emails &mdash; the UI only allows 50 deletions at a time. A Node.js CLI tool connecting to the Gmail API to bulk-delete emails based on filters, completely bypassing the UI restriction.</p>
       <div class="tags" style="margin-bottom:24px"><span class="tag">Node.js</span><span class="tag">Gmail API</span><span class="tag">CLI</span><span class="tag h">Open Source</span></div>
@@ -296,7 +303,7 @@ footer p{font-size:13px;color:rgba(255,255,255,0.3)}
         <li>Filter by time range &amp; operation logging</li>
         <li>Interactive CLI prompts for safe execution</li>
       </ul>
-      <div class="proj-foot"><span class="proj-lt">Coming to GitHub</span><div class="arrow">&rarr;</div></div>
+      <div class="proj-foot"><span class="proj-lt">&#x1F512; Private repo &middot; open source coming soon</span><div class="arrow">&rarr;</div></div>
     </div>
   </div>
 </section>
