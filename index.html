@@ -133,7 +133,7 @@ footer p{font-size:13px;color:rgba(255,255,255,0.3)}
 </nav>
 
 <section id="hero">
-  <div class="hero-bg">FINTECH</div>
+  <div class="hero-bg"><span id="bg-typed"></span></div>
   <div class="hero-inner">
     <div>
       <div class="hero-tag"><span class="dot"></span>Available for opportunities</div>
@@ -339,5 +339,18 @@ footer p{font-size:13px;color:rgba(255,255,255,0.3)}
   <p>Lagos, Nigeria &middot; Available globally</p>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js"></script>
+<script>
+new Typed("#bg-typed", {
+  strings: ["FINTECH", "PAYMENTS", "BACKEND", "FRONTEND", "WEB3", "REAL-TIME", "FULL STACK", "SYSTEMS"],
+  typeSpeed: 80,
+  backSpeed: 50,
+  backDelay: 2500,
+  startDelay: 0,
+  loop: true,
+  showCursor: false,
+  smartBackspace: false
+});
+</script>
 </body>
 </html>
